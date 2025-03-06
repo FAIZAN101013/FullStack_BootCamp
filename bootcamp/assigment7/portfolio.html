@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Faizan Patel</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Hi, I'm <span style="color: #007bff">Faizan Patel</span></h2>
+      <p>
+        A passionate developer building impactful websites and applications.
+      </p>
+      <a href="#contact">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>
+          I'm a software developer with a knack for creating responsive and
+          user-friendly websites. I love solving challenging problems and
+          learning new technologies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h3>My Skills</h3>
+        <div class="grid">
+          <div>
+            <p>HTML</p>
+          </div>
+          <div>
+            <p>CSS</p>
+          </div>
+          <div>
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h3>My Projects</h3>
+        <div class="grid">
+          <div>
+            <h4>Project 1</h4>
+            <p>A brief description of your project.</p>
+          </div>
+          <div>
+            <h4>Project 2</h4>
+            <p>A brief description of your project.</p>
+          </div>
+          <div>
+            <h4>Project 3</h4>
+            <p>A brief description of your project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Faizan Patel. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-gray-200 font-sans">
+    <header class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Faizan Patel</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:text-blue-400">About</a></li>
+            <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+            <li>
+              <a href="#projects" class="hover:text-blue-400">Projects</a>
+            </li>
+            <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      class="h-screen flex flex-col justify-center items-center text-center bg-gray-900"
+    >
+      <h2 class="text-4xl font-bold mb-4">
+        Hi, I'm <span class="text-blue-500">Faizan Patel</span>
+      </h2>
+      <p class="text-lg mb-6">
+        A passionate developer building impactful websites and applications.
+      </p>
+      <a
+        href="#contact"
+        class="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      >
+        Contact Me
+      </a>
+    </section>
+    <section id="about" class="py-16 bg-gray-800">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">About Me</h3>
+        <p class="text-lg leading-relaxed">
+          I'm a software developer with a knack for creating responsive and
+          user-friendly websites. I love solving challenging problems and
+          learning new technologies.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-gray-900">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">My Skills</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="p-4 bg-gray-800 rounded shadow-md">
+            <p class="text-xl font-bold">HTML</p>
+          </div>
+          <div class="p-4 bg-gray-800 rounded shadow-md">
+            <p class="text-xl font-bold">CSS</p>
+          </div>
+          <div class="p-4 bg-gray-800 rounded shadow-md">
+            <p class="text-xl font-bold">JavaScript</p>
+          </div>
+          <div class="p-4 bg-gray-800 rounded shadow-md">
+            <p class="text-xl font-bold">React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-16 bg-gray-800">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">My Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-gray-900 p-4 rounded shadow-md">
+            <h4 class="text-xl font-bold mb-2">Project 1</h4>
+            <p>A brief description of your project.</p>
+          </div>
+          <div class="bg-gray-900 p-4 rounded shadow-md">
+            <h4 class="text-xl font-bold mb-2">Project 2</h4>
+            <p>A brief description of your project.</p>
+          </div>
+          <div class="bg-gray-900 p-4 rounded shadow-md">
+            <h4 class="text-xl font-bold mb-2">Project 3</h4>
+            <p>A brief description of your project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-900">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+        <form action="#" method="post" class="max-w-lg mx-auto">
+          <div class="mb-4">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="w-full p-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="w-full p-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div class="mb-4">
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              class="w-full p-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 p-4 text-center">
+      <p>&copy; 2025 Faizan Patel. All rights reserved.</p>
+    </footer>
+  </body>
+</html> -->

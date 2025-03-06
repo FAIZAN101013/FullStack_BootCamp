@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Faizan Patel</title>
+</head>
+<body>
+    <header>
+        <na
+    </header>
+    
+    <main>
+        <div style="text-align: center; background-color: #f1f1f1; padding: 20px;">
+            <h1>Mohammed Faizan Patel</h1>
+            
+        </div>
+        <div style="text-align: center; font-size: 20px; padding: 20px;">
+            <p>I am Mohammed Faizan Patel, a Computer Science graduate passionate about coding and web development. I enjoy solving problems, learning new technologies, and building responsive websites. Currently enrolled in a bootcamp to refine my skills, I aim to grow as a developer and create impactful, user-friendly digital solutions.</p>
+        </div>
+        <div style="text-align: center;">
+            
+            <img src="assigment2\download (2).jpeg" alt="Mohammed Faizan Patel" style="width: 50%; height: auto;" />
+        </div>
+        <div >
+            <h2 style="text-align: center;">Education</h2>
+            <div >
+                <ul >
+                    <ul>
+                         <li>High School: Iteach SGM , Pune</li>
+                         <ul>
+                            <li>Favorite Subject</li>
+                            <li>Mathematics</li>
+                            <li>Science</li>
+                        </ul>
+                    </ul>
+                    <ul><li> Rajiv Gandhi Academy of E learning, Pune</li>
+                        <ul>
+                            <li>Favorite Subject</li>
+                            <li>Mathematics</li>
+                            <li>Physics</li>
+                        </ul>
+                    </ul>
+                    <ul><li>Maratha Mandal Engg College , Belgavi</li>
+                        <ul>
+                            <li>Favorite Subject</li>
+                            <li>Wed Dev</li>
+                            <li>Embbed Sytems</li>
+                        </ul>
+                    </ul>
+                    
+                    
+                </ul>
+            </div>
+            
+        </div>
+        <div >
+            <h2 style="text-align: center;">Hobbies</h2>
+            <ul >
+                <li>Cricket</li>
+                <li>Traveling</li>
+                <li>Coding</li>
+            </ul>
+        </div>
+        <div  style="text-align: center;">
+            <h2>Favorite Song</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+        <div style="text-align: center;">
+            <h2>Favorite Video</h2>
+                <video width="560" height="315" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+        </div>
+        <div style="text-align: center; background-color: #f1f1f1; padding: 20px;">
+            <h2>Contact</h2>
+            <p>Email: <em>faizan.m.patel10@gmail.com</em></p>
+            <p>
+                <a href="https://github.com/FAIZAN101013" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/mohammed-faizan-patel-6939821b5" target="_blank">LinkedIn</a> |
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </main>
+    <footer>
+    
+    </footer>
+</body>
+</html>

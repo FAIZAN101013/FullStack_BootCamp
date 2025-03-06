@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1f1f2e, #1a1a24);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .pricing-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .pricing-card {
+    background: rgba(50, 50, 80, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #ff6f61;
+    background: linear-gradient(to top, #33324f, #2e2e3d);
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.5);
+  }
+  
+  
+  
+  
+  
+  .pricing-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  
+  .pricing-card .price {
+    font-size: 2em;
+    color: #ff6f61;
+    margin: 15px 0;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 0.9em;
+  }
+  
+  .pricing-card ul li {
+    margin: 10px 0;
+  }
+  
+  
+  .signup-button {
+    background: linear-gradient(to right, #ff6f61, #ff3d3d);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .signup-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff3d3d, #ff6f61);
+  }
+  
+
+  @media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pricing-card {
+      width: 90%; 
+      margin-bottom: 20px;
+    }
+  }

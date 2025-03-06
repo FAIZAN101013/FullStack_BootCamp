@@ -1,0 +1,36 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Form Styling */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 700;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Submit Button Hover Effect */
+  button:hover {
+    background-color: #434190;
+    transition: 0.3s;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 15px;
+    }
+  }
+  

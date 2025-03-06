@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movies</title>
+</head>
+<body>
+    <h1>My  3 Favorite Movies</h1>
+    <ul>
+        <li>1. The Shawshank Redemption</li>
+        <li>2. The Godfather</li>
+        <li>3. The Dark Knight</li>
+        <li>4. The Lord of the Rings: The Return of the King</li>
+    </ul>
+</body>
+</html>

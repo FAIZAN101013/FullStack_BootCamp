@@ -1,0 +1,91 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: linear-gradient(to right, #8360c3, #2ebf91);
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(243, 240, 240, 0.8);
+        padding: 15px;
+        text-align: center;
+      }
+      .navbar a {
+        color: rgb(19, 18, 18);
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 100px;
+        width: 350px;
+      }
+      .profile-img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+      }
+      .login-form {
+        width: 100%;
+      }
+      .login-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .login-form input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #c4bbbb;
+        border-radius: 25px;
+        text-align: center;
+      }
+      .remember-me {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .remember-me input {
+        margin-right: 5px;
+      }
+      button {
+        width: 100%;
+        background: #2ebf91;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 0.3s;
+      }
+      button:hover {
+        background: #259f77;
+      }
+      .footer {
+        margin-top: auto;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background: rgba(238, 236, 236, 0.8);
+        color: rgb(14, 13, 13);
+        position: fixed;
+        bottom: 0;
+      }

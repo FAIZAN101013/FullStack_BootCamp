@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me & Survey</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+    <header style="text-align: center; background-color: #f7efef; color: white; padding: 15px;">
+        <nav>
+            <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 18px;">Home</a>
+            <a href="aboutme.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 18px;">About</a>
+            <a href="contact.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 18px;">Contact</a>
+        </nav>
+    </header>
+    <main style="max-width: 800px; margin: 20px auto; padding: 20px;">
+        <h1 style="text-align: center; color: #333; margin-bottom: 20px;">Contact Me & Survey</h1>
+        <form style="margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9;">
+            <label for="fullname" style="display: block; font-weight: bold; margin-bottom: 5px;">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+            <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+            <label for="password" style="display: block; font-weight: bold; margin-bottom: 5px;">Password:</label>
+            <input type="password" id="password" name="password" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+            <label for="age" style="display: block; font-weight: bold; margin-bottom: 5px;">Age:</label>
+            <input type="number" id="age" name="age" min="13" max="100" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+            <label for="gender" style="display: block; font-weight: bold; margin-bottom: 5px;">Gender:</label>
+            <div style="margin-bottom: 15px;">
+                <input type="radio" id="gender-male" name="gender" value="male" style="margin-right: 5px;"> Male<br>
+                <input type="radio" id="gender-female" name="gender" value="female" style="margin-right: 5px;"> Female
+            </div>
+
+            <label for="rating" style="display: block; font-weight: bold; margin-bottom: 5px;">How would you rate the website?</label>
+            <input type="range" id="rating" name="rating" min="1" max="10" style="width: 100%; margin-bottom: 15px;">
+
+            <label for="comments" style="display: block; font-weight: bold; margin-bottom: 5px;">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 15px;"></textarea>
+
+            <label for="newsletter" style="display: block; font-weight: bold; margin-bottom: 5px;">Subscribe to newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" style="margin-bottom: 15px;">
+
+            <label for="audiofile" style="display: block; font-weight: bold; margin-bottom: 5px;">Upload an Audio File:</label>
+            <input type="file" id="audiofile" name="audiofile" accept="audio/*" style="margin-bottom: 15px;">
+
+            <label for="contact-method" style="display: block; font-weight: bold; margin-bottom: 5px;">Preferred Contact Method:</label>
+            <select id="contact-method" name="contact-method" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="mail">Mail</option>
+            </select>
+
+            <button type="submit" style="display: block; width: 100%; padding: 10px; background-color: #333; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Submit</button>
+        </form>
+    </main>
+    <footer style="text-align: center; background-color: #dfd8d8; color: white; padding: 10px; position: fixed; width: 100%; bottom: 0;">
+        <p>&copy; 2025 Mohammed Faizan Patel</p>
+    </footer>
+</body>
+</html>

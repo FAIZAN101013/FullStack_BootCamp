@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Mohammed Faizan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Me</h1>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="1" max="100" />
+        </div>
+
+        <div>
+          <label for="rating">Rate My Website:</label>
+          <select id="rating" name="rating" required>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Preferred Contact Method:</label>
+          <input
+            type="radio"
+            id="email-contact"
+            name="contact-method"
+            value="email"
+            required
+          />
+          <label for="email-contact">Email</label>
+          <input
+            type="radio"
+            id="phone-contact"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="phone-contact">Phone</label>
+        </div>
+
+        <div>
+          <label>Reason for Contact:</label>
+          <input
+            type="checkbox"
+            id="reason1"
+            name="reason"
+            value="collaboration"
+          />
+          <label for="reason1">Collaboration</label>
+          <input type="checkbox" id="reason2" name="reason" value="feedback" />
+          <label for="reason2">Feedback</label>
+          <input type="checkbox" id="reason3" name="reason" value="inquiry" />
+          <label for="reason3">Inquiry</label>
+        </div>
+
+        <div>
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="3"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Mohammed Faizan Patel. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

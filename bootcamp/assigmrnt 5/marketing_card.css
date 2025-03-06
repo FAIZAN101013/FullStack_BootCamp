@@ -1,0 +1,86 @@
+body {
+font-family: "Poppins", sans-serif;
+background-color: #f7ead9; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+border: 20px;
+}
+.card {
+position: relative;
+width: 300px;
+height: 500px;
+background-color: #b7e5b1;
+border-radius: 20px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+padding: 20px;
+box-sizing: border-box;
+overflow: visible;
+}
+.decor.balloon {
+position: absolute;
+top: .5px;
+right: 40px;
+width: 100px;
+height: 100px;
+background-color: #ff9f88; 
+border-radius: 50%;
+}
+.decor.cube {
+position: absolute;
+top: 200px;
+left: 25px;
+right: 25px;
+width: 40px;
+height: 40px;
+background-color: #f9d99d; 
+}
+.decor.circle {
+position: absolute;
+top: 200px;
+left: 150px;
+width: 60px;
+height: 60px;
+background-color: #417a49; 
+border-radius: 50%;
+}
+.tag {
+position: absolute;
+bottom: 100px;
+left: 20px;
+background-color: white;
+color: #000;
+font-size: 14px;
+padding: 5px 10px;
+border-radius: 20px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+margin: 30px 0;
+}
+h2 {
+position: absolute;
+bottom: 60px;
+left: 20px;
+font-size: 20px;
+font-weight: 600;
+color: #1e3923;
+margin: 0;
+margin-top: 10px ;
+margin-bottom: 10px;
+}
+.button {
+position: absolute;
+bottom: 20px;
+left : 20px;
+width: 50px;
+height: 50px;
+background-color: #000;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+cursor: pointer;
+margin-top: 30px 0 ;

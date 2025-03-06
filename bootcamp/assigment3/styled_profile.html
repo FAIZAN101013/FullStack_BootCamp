@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Personal Profile Page</title>
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ebe8e0; 
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Center all elements */
+    }
+    h1, h2 {
+      color: #a8988e; /* Warm orange */
+    }
+    .content-section {
+      margin: 20px auto; /* Center sections horizontally */
+      padding: 20px;
+      width: 80%; /* Reduce width for better readability */
+      max-width: 600px; /* Limit maximum width */
+      border: 2px solid #e67e22; /* Warm orange border */
+      border-radius: 10px;
+      background: #fff3e0; /* Warm pastel background */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Add soft shadow */
+    }
+    .content-section:hover {
+      background-color: #ffe0b2; /* Slightly darker shade on hover */
+    }
+    .hobbies ul {
+      list-style-type: circle;
+      padding-left: 20px;
+      text-align: left; /* Align list items to the left */
+    }
+    video {
+      border: 3px solid #d35400; /* Add a border to the video */
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #7f8c8d;
+    }
+  </style>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Personal Profile</h1>
+  </header>
+
+  <section class="content-section">
+    <h2>Name</h2>
+    <p>Mohammed Faizan</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Mohammed Faizan, a web development enthusiast. I enjoy learning new technologies and exploring creative ways to build functional websites.</p>
+  </section>
+
+  <section class="content-section hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Reading</li>
+      <li>Gaming</li>
+      <li>Traveling</li>
+    </ul>
+  </section>
+
+  <section class="content-section">
+    <h2>Educational Qualifications</h2>
+    <p>Bachelor's Of Engineering  in Computer Science</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Favorite Song</h2>
+    <p>"Imagine" by John Lennon</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Introduction Video</h2>
+    <video controls width="320" height="240">
+      <source src="introduction.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohammed Faizan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

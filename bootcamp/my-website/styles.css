@@ -1,0 +1,194 @@
+/* Root Variables for Theming */
+:root {
+  --primary-color: #4CAF50;
+  --primary-dark: #45a049;
+  --secondary-color: #333;
+  --background-color: #f4f4f9;
+  --text-color: #333;
+  --white: #ffffff;
+}
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em; /* Reduced font size */
+}
+
+/* Navigation */
+nav {
+  background-color: var(--primary-color);
+  padding: 5px 0; /* Reduced padding */
+  margin-top: 60px; /* Adjusted to prevent overlap with fixed header */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px; /* Slightly reduced margin */
+}
+
+nav ul li a,
+nav ul li button {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1em; /* Reduced font size */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul li button {
+  font-family: inherit;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  margin: 80px 20px 50px; /* Adjusted margins */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headings */
+h1, h2 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em; /* Reduced font size */
+}
+
+h2 {
+  font-size: 1.75em; /* Reduced font size */
+}
+
+/* Paragraphs */
+p {
+  font-size: 1em; /* Reduced font size */
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Forms */
+form {
+  background-color: var(--white);
+  padding: 25px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 10px 20px; /* Reduced padding */
+  border: none;
+  border-radius: 20px; /* Slightly reduced border-radius */
+  font-size: 0.95em; /* Reduced font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 10px 0; /* Reduced padding */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  main {
+    margin: 100px 20px 70px; /* Adjusted margins for mobile devices */
+  }
+
+  form {
+    padding: 20px;
+  }
+}
