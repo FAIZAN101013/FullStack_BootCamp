@@ -10,7 +10,7 @@ const Listcomponent = ({ list, onDelete }) => {
                                 onClick={() => onDelete(index)}
                                 className="ml-4 bg-red-500 text-white px-2 py-1 text-sm rounded"
                             >
-                                Delete
+                                🗑️
                             </button>
                         </li>
                     ))}
