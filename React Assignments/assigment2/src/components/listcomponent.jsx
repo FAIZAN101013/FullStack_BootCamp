@@ -1,6 +1,6 @@
 // src/components/ListComponent.jsx
 import React from "react";
-import List from "./list"; // Changed import name to List for clarity
+import List from "./list";
 
 const ListComponent = ({ list, onDelete }) => {
     return (
