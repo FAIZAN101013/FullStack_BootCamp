@@ -1,18 +1,19 @@
-const Listcomponent = ({ list, onDelete }) => {
+// src/components/ListComponent.jsx
+import React from "react";
+import List from "./list"; // Changed import name to List for clarity
+
+const ListComponent = ({ list, onDelete }) => {
     return (
-        <div className="items-list text-center mt-4">
+        <div className="items-list text-center mt-4  p-4 rounded">
             {list.length > 0 ? (
-                <ul className="list-disc list-inside text-blue-500 font-semibold">
+                <ul className="text-blue-500 font-semibold">
                     {list.map((item, index) => (
-                        <li key={index} className="mb-1 flex justify-between items-center">
-                            <span>{item}</span>
-                            <button
-                                onClick={() => onDelete(index)}
-                                className="ml-4 bg-red-500 text-white px-2 py-1 text-sm rounded"
-                            >
-                                🗑️
-                            </button>
-                        </li>
+                        <List
+                            ad key={index}
+                            id={index}
+                            name={item}
+                            onDelete={onDelete}
+                        />
                     ))}
                 </ul>
             ) : (
@@ -22,4 +23,4 @@ const Listcomponent = ({ list, onDelete }) => {
     );
 };
 
-export default Listcomponent;
+export default ListComponent;

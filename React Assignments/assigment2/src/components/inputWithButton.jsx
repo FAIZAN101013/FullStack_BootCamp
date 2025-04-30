@@ -1,20 +1,21 @@
 import React from 'react';
+import { BiPlus } from 'react-icons/bi';
 
 const InputWithButton = ({ inputValue, setInputValue, handleAddItem }) => {
     return (
-        <div className="flex items-center justify-center mb-4">
+        <div className="input-wrapper border border-gray-500 rounded-xl flex overflow-hidden">
             <input
                 type="text"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 placeholder="Add items..."
-                className="border border-gray-300 rounded px-4 py-2 focus:outline-none"
+                className="flex-1 p-2"
             />
             <button
                 onClick={handleAddItem}
-                className="bg-green-500 text-2xl text-white px-4 py-2 ml-2 rounded focus:outline-none"
+                className="p-2 bg-green-500 cursor-pointer aspect-square w-8 flex-[0_0_48px] grid place-content-center "
             >
-                +
+                <BiPlus className="text-white aspect-square text-2xl" />
             </button>
         </div>
     );
